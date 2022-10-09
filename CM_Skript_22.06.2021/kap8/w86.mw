@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="13" minor="2"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false"></View-Properties>
+<MapleNet-Properties elisiondigitsbefore="100" labelling="true" indentamount="4" elisiontermsthreshold="infinity" ansi="false" errorbreak="1" useclientjvm="true" echo="1" imaginaryunit="I" labelwidth="20" plotdriver="openviz" elisiondigitsafter="100" plotoutput="terminal" rtablesize="10" elisiontermsbefore="100" elisiondigitsthreshold="infinity" typesetting="standard" plotdevice="inline" verboseproc="1" showassumed="1" errorcursor="false" longdelim="true" plotoptions="" quiet="false" elisiontermsafter="100" screenwidth="79" preplot="" prettyprint="3" displayprecision="-1" warnlevel="3" screenheight="25" latexwidth="6.0" postplot="" prompt="&gt; " ShowLabels="true"/>
+<Styles><Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Maple Name" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[104,64,92]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Menus" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Fixed Width" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Plot Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="8" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Nonterminal" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Heading" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Variable" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Italic Bold" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Default" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Underlined Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math Bold Small" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Small" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Page Number" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Output Labels" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="8" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="true" executable="false" family="Arial" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Plot Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Emphasized" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Symbol 2" background="[255,255,255]" bold="false" executable="false" family="SymbolPi" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Comment" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="R3 Font 5" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output6" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="9" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="R3 Font 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[64,128,64]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="R3 Font 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="R3 Font 2" background="[255,255,255]" bold="true" executable="false" family="Arial" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="R3 Font 9" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="R3 Font 8" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="true" executable="false" family="Arial" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="R3 Font 7" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="R3 Font 6" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Comment" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Underlined Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Copyright" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="R3 Font 10" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="R3 Font 11" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Help Underlined" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="true" executable="false" family="Arial" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Prompt" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Page Break" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="R3 Font 0" background="[255,255,255]" bold="true" executable="false" family="Arial" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Arial" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Notes" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="LaTeX" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Arial" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Popup" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Left Justified Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Fixed" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Fixed Width" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Text Output6" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="R3 Font 5" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="R3 Font 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Help" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="R3 Font 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="R3 Font 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="R3 Font 9" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="R3 Font 8" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="R3 Font 7" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="R3 Font 6" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="R3 Font 10" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="R3 Font 11" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.5" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Page Break" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="R3 Font 0" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Left Justified Maple Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.5" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+</Styles>
+<Footer left-content="" center-content="" right-content="&amp;[Page]" left-image-scale-width="100" center-image-scale-width="100" right-image-scale-width="100" left-image-scale-height="100" center-image-scale-height="100" right-image-scale-height="100" date-format="2" selected-index="0" first-number="1" first-numbered-page="1"/>
+<Task-table>
+    <Task-category name="&lt;default&gt;">
+    </Task-category>
+</Task-table>
+<Annotation-table>
+    <Annotation-category name="&lt;default&gt;">
+    </Annotation-category>
+</Annotation-table>
+<Task>
+</Task>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2"><Font encoding="UTF-8">Einf\303\274hrung</Font></Text-field></Title>
+<Group labelreference="L1" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L2" drawlabel="true">
+<Input>
+<Text-field style="Normal" layout="Normal">Das Paket <Hyperlink linktarget="Help:MapletsPackage" hyperlink="true"><Font bold="true" style="Hyperlink" family="Arial">Maplets</Font></Hyperlink><Font encoding="UTF-8"> bietet eine Programmierumgebung zur Erstellung eigener graphischer Benutzeroberfl\303\244chen f\303\274r Maple-Anwendungen. Maplets sind kein Ersatz f\303\274r Worksheets, sondern erg\303\244nzen diese. Als Maplet-Beispiel soll die graphische Benutzeroberfl\303\244che f\303\274r das Paket </Font><Hyperlink linktarget="Help:CurveFitting" hyperlink="true"><Font bold="true" style="Hyperlink" family="Arial">CurveFitting</Font></Hyperlink> dienen.</Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">CurveFitting[Interactive]([[1,2],[3,5],[4,7],[7,8]]);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L4" drawlabel="true">
+<Input>
+<Text-field style="Normal" layout="Normal">In der Prozedur <Hyperlink linktarget="Help:CurveFitting[Interactive]" hyperlink="true"><Font bold="true" style="Hyperlink" family="Arial">CurveFitting[Interactive]</Font></Hyperlink> wird ein Aufruf <Hyperlink linktarget="Help:Maplets[Display]" hyperlink="true"><Font bold="true" style="Hyperlink" family="Arial">Maplets[Display]</Font></Hyperlink><Font encoding="UTF-8"> ausgef\303\274hrt. Diese Routine sendet eine Maplet-Definition an den Maple-Kernel, welcher daraufhin eine </Font><Font bold="true" style="Text" family="Arial" italic="true">Java Virtual Machine (JVM) </Font><Font encoding="UTF-8">startet, an die die Maplet-Definition \303\274bergeben wird. Diese Definition wird nun in verschiedene Java-Klassen konvertiert, die dann letztendlich auf dem Bildschirm ausgegeben werden. Kommunikation zwischen Maplet und Maple-Kernel ist m\303\266glich. So k\303\266nnen vom Maplet aus Maple-Kommandos ausgef\303\274hrt werden. Ebenso k\303\266nnen Werte des Maplets abgefragt und aktualisiert werden.
+</Font>
+Weitere Maplets sind z.B. der interaktive plot builder (<Hyperlink linktarget="Help:plots[interactive]" hyperlink="true"><Font bold="true" style="Hyperlink" family="Arial">plots[interactive]</Font></Hyperlink><Font encoding="UTF-8">) sowie die graphische Benutzerschnittstelle f\303\274r die Einstellung von Maple </Font><Hyperlink linktarget="Help:Preferences" hyperlink="true"><Font bold="true" style="Hyperlink" family="Arial">Preferences</Font></Hyperlink>.</Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Ein erstes Maplet</Text-field></Title>
+<Group labelreference="L5" drawlabel="true">
+<Input>
+<Text-field style="Normal" layout="Normal">Am Anfang soll ein sehr einfaches &quot;Hello World!&quot; Maplet erstellt werden.
+Maplets werden in Maple mit Hilfe von geschachtelten Funktionsaufrufen definiert:</Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L6" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">use Maplets[Elements] in
+   maplet1 := Maplet([&quot;Hello World!&quot;,Button(&quot;Ok&quot;,Shutdown())]);
+end use:
+Maplets[Display](maplet1);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L7" drawlabel="true">
+<Input>
+<Text-field style="Normal" layout="Normal">Die Objekte hier sind</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">die Funktion <Hyperlink linktarget="Help:Maplets,Elements,Maplet" hyperlink="true"><Font bold="true" style="Hyperlink" family="Arial">Maplet</Font></Hyperlink>,</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">der Text <Font bold="true" style="Text" family="Monospaced">&quot;Hello World!&quot;,</Font></Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">ein <Hyperlink linktarget="Help:Maplets,Elements,Button" hyperlink="true"><Font bold="true" style="Hyperlink" family="Arial">Button</Font></Hyperlink> mit der Aufschrift &quot;Ok&quot; und</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">die Funktion <Hyperlink linktarget="Help:Maplets,Elements,Shutdown" hyperlink="true"><Font bold="true" style="Hyperlink" family="Arial">Shutdown</Font></Hyperlink>.</Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Die Funktionen <Font bold="true" style="Text" family="Monospaced">Maplet</Font>, <Font bold="true" style="Text" family="Monospaced">Button</Font> und <Font bold="true" style="Text" family="Monospaced">Shutdown</Font><Font bold="true" style="Text" family="Arial" italic="true"> </Font>aus dem Paket <Hyperlink linktarget="Help:Maplets[Elements]" hyperlink="true"><Font bold="true" style="Hyperlink" family="Arial">Maplets[Elements]</Font></Hyperlink> werden Elemente des Maplets genannt und mit Hilfe der <Hyperlink linktarget="Help:use" hyperlink="true"><Font bold="true" style="Hyperlink" family="Arial">use</Font></Hyperlink><Font encoding="UTF-8"> Anweisung zur Verf\303\274gung gestellt. Jedes Element geh\303\266rt zu einer entsprechenden Java-Klasse. Das andere Objekt im Maplet ist eine Liste, welche einen String und einen Button enth\303\244lt. Das bedeutet hier, dass die beiden Objekte in einer Spalte, \303\274bereinander dargestellt werden sollen. Diese Art der Maplet-Definition, \303\274ber geschachtelte Listen, ist prinzipiell m\303\266glich, aber aufw\303\244ndig und un\303\274bersichtlich. Die Funktionen </Font><Hyperlink linktarget="Help:Maplets,Elements,BoxColumn" hyperlink="true"><Font bold="true" style="Hyperlink" family="Arial">BoxColumn</Font></Hyperlink> und <Hyperlink linktarget="Help:Maplets,Elements,BoxRow" hyperlink="true"><Font bold="true" style="Hyperlink" family="Arial">BoxRow</Font></Hyperlink><Font encoding="UTF-8"> erleichtern die Definition und die \303\234bersichtlichkeit erheblich. Das Beispiel von oben hat dann die folgende Gestalt:</Font></Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L8" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">use Maplets[Elements] in
+   maplet1 := Maplet(
+      BoxColumn(
+         BoxRow(&quot;Hello World!&quot;),
+         BoxRow(Button(&quot;Ok&quot;, Shutdown()))
+      ) 
+   );
+end use:
+Maplets[Display](maplet1);    
+</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Das Element TextField und Return-Werte</Text-field></Title>
+<Group labelreference="L9" drawlabel="true">
+<Input>
+<Text-field style="Normal" layout="Normal">Das <Font bold="true" style="Text" family="Monospaced">Hello World!</Font><Font encoding="UTF-8"> Maplet kommuniziert noch nicht viel mit Maple. Eine Interaktion mit dem Benutzer erm\303\266glicht das Element </Font><Hyperlink linktarget="Help:Maplets,Elements,TextField" hyperlink="true"><Font bold="true" style="Hyperlink" family="Arial">TextField</Font></Hyperlink><Font encoding="UTF-8">. Dieses Element erlaubt es dem Benutzer, Text im Maplet einzugeben. Mit dem nachfolgenden Maplet wird ebenfalls demonstriert, wie ein Maplet Werte an die Maple-Umgebung \303\274bergeben kann.</Font></Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L10" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">use Maplets[Elements] in
+   maplet2 := Maplet(
+      BoxColumn(
+         BoxRow(&quot;Bitte geben Sie Ihren Namen ein: &quot;,
+                TextField['TF1']()),
+         BoxRow(&quot;Bitte geben Sie Ihre Adresse ein: &quot;,
+                TextField['TF2']()),
+         BoxRow(Button( &quot;OK&quot;, Shutdown( ['TF1','TF2'] )),
+                Button( &quot;Cancel&quot;, Shutdown()))
+      )
+   );
+end use:
+Maplets[Display](maplet2);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NyRRNUpvaGFubmVzfkdyb3RlbmRvcnN0NiJRJ0p8Z3psaWNoRiQ=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L11" drawlabel="true">
+<Input>
+<Text-field style="Normal" layout="Normal">Die Symbole <Font bold="true" style="Text" family="Monospaced">'TF1'</Font> und <Font bold="true" style="Text" family="Monospaced">'TF2'</Font><Font encoding="UTF-8"> sind Referenzen, mit denen der Maplet-Programmierer den Wert des Maplets abfragen bzw. ver\303\244ndern kann. Die Namen </Font><Font bold="true" style="Text" family="Monospaced">TF1</Font> und <Font bold="true" style="Text" family="Monospaced">TF2</Font> sind in Quotes eingeschlossen, damit das Maplet nicht abbricht, wenn der Anwender diesen Namen einen Wert zugewiesen hat. Dem Element <Font bold="true" style="Text" family="Monospaced">Shutdown</Font><Font encoding="UTF-8"> kann eine Liste von Referenzen \303\274bergeben werden. Die Werte der Referenzen werden zur\303\274ckgegeben, wenn das Maplet beendet wird.</Font></Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L12" drawlabel="true">
+<Input>
+<Text-field style="Heading 2" layout="Heading 2"><Font encoding="UTF-8">Feste R\303\274ckgabewerte</Font></Text-field>
+<Text-field style="Normal" layout="Normal">Ein <Font bold="true" style="Text" family="Monospaced">Shutdown</Font><Font bold="true" style="Text" family="Arial" italic="true"> </Font>Element kann ebenso einen String als Return-Wert besitzen:</Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L13" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">use Maplets[Elements] in
+   maplet3 := Maplet(
+      BoxColumn(
+         BoxRow(TextField['TF1']()),
+         BoxRow(Button(&quot;OK&quot;,Shutdown(&quot;left&quot;,['TF1'])),
+                Button(&quot;Cancel&quot;,Shutdown(&quot;Cancel-Button&quot;)))
+      )
+   );
+end use:
+Maplets[Display](maplet3);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiRRJWxlZnQ2IjcjUS5DYW5jZWwtQnV0dG9uRiQ=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L14" drawlabel="true">
+<Input>
+<Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Nach Dr\303\274cken des Cancel-Buttons erfolgt die Ausgabe &quot;Cancel-Button&quot;.</Font></Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Kommunikation mit dem Kernel</Text-field></Title>
+<Group labelreference="L15" drawlabel="true">
+<Input>
+<Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Bis jetzt waren alle Interaktionen auf das Maplet beschr\303\244nkt. Beim Ausw\303\244hlen eines Buttons schlie\303\237t das Element </Font><Font bold="true" style="Text" family="Monospaced">Shutdown</Font><Font encoding="UTF-8"> das Maplet, und kann Werte an die aufrufende Umgebung zur\303\274ckgeben. Das folgende Maplet besitzt ein Textfeld, in das der Benutzer einen Ausdruck eingeben kann. Mit Hilfe eines Buttons kann die Berechnung der Ableitung eines Ausdrucks durchgef\303\274hrt und ausgegeben werden.</Font></Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L16" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">use Maplets[Elements] in
+   maplet4 := Maplet(
+      BoxColumn(
+         BoxRow(&quot;Eingabe eines Ausdrucks in x: &quot;,
+                TextField['input']()),
+         BoxRow(Button( &quot;Differenziere&quot;,
+                Evaluate('output' = 'diff( input,x)')),
+                Button( &quot;OK&quot;, Shutdown())),
+         BoxRow(TextBox['output'](3..40))
+      )
+   ):
+end use:
+Maplets[Display](maplet4):                </Text-field>
+</Input>
+</Group>
+<Group labelreference="L17" drawlabel="true">
+<Input>
+<Text-field style="Normal" layout="Normal">Eine <Hyperlink linktarget="Help:Maplets,Elements,TextBox" hyperlink="true"><Font bold="true" style="Hyperlink" family="Arial">TextBox</Font></Hyperlink><Font encoding="UTF-8"> ist einem Textfeld sehr \303\244hnlich, es kann allerdings mehrere Zeilen zur Ein-/Ausgabe enthalten. Das Kommando  </Font><Hyperlink linktarget="Help:Maplets,Elements,Evaluate" hyperlink="true"><Font bold="true" style="Hyperlink" family="Arial">Evaluate</Font></Hyperlink><Font encoding="UTF-8"> bietet die M\303\266glichkeit zur Kommunikation mit dem Kernel. Der Ausdruck wird in Quotes eingechlossen, damit Maple den Ausdruck nicht direkt bei der Interpretation des Maplets auswertet.</Font></Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Ausgabe von Plots im Maplet</Text-field></Title>
+<Group labelreference="L18" drawlabel="true">
+<Input>
+<Text-field style="Normal" layout="Normal">Das folgende Maplet hat mehrere Textfelder, einen Button sowie eine graphische
+<Font encoding="UTF-8">Ausgabebox, in die Ausdr\303\274cke geplottet werden k\303\266nnen.</Font></Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L19" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">use Maplets[Elements] in
+   maplet5 := Maplet(
+      Window('menubar' = 'MB',title=&quot;Plotten von Funktionen&quot;,
+      BoxColumn(halign=left,
+         BoxRow(&quot;Eingabe eines Ausdrucks in x:&quot;,
+                TextField['TF'](),halign=none,HorizontalGlue()),
+         BoxRow(&quot;x-Bereich:&quot;,
+                TextField['x1'](&quot;-10&quot;,width=3), &quot;..&quot;,
+                TextField['x2'](&quot;10&quot;,width=3),
+                halign=none,HorizontalGlue()),
+         BoxRow(&quot;y-Bereich:&quot;,
+                TextField['y1'](&quot;-10&quot;,width=3), &quot;..&quot;,
+                TextField['y2'](&quot;10&quot;,width=3),
+                halign=none,HorizontalGlue()),
+<Font encoding="UTF-8">         BoxRow(&quot;Vor dem Plotten auf Unstetigkeiten pr\303\274fen:&quot;,
+</Font>                CheckBox['CB'](),HorizontalGlue(),halign=none),
+         BoxRow(Plotter['PL']()),
+         BoxRow(Button( &quot;Plot&quot;,Evaluate('PL = plot(TF,
+         x=x1..x2,y1..y2,discont=CB)')),halign=center)
+         )
+      ), 
+      MenuBar['MB'](
+         Menu(&quot;File&quot;,
+            MenuItem(&quot;Clear&quot;,Evaluate(
+            'PL' = 'plot(0,axes=none,color=white)')),
+            MenuItem(&quot;Exit&quot;,Shutdown()))
+      )
+   );
+end use:
+Maplets[Display](maplet5); </Text-field>
+</Input>
+</Group>
+<Group labelreference="L20" drawlabel="true">
+<Input>
+<Text-field style="Normal" layout="Normal">Die neuen Elemente in diesem Maplet sind</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item"><Hyperlink linktarget="Help:Maplets,Elements,Window" hyperlink="true"><Font bold="true" style="Hyperlink" family="Arial">Window</Font></Hyperlink>,</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item"><Hyperlink linktarget="Help:Maplets,Elements,HorizontalGlue" hyperlink="true"><Font bold="true" style="Hyperlink" family="Arial">HorizontalGlue</Font></Hyperlink>,</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item"><Hyperlink linktarget="Help:Maplets,Elements,MenuBar" hyperlink="true"><Font bold="true" style="Hyperlink" family="Arial">MenuBar</Font></Hyperlink>, <Hyperlink linktarget="Help:Menu" hyperlink="true"><Font bold="true" style="Hyperlink" family="Arial">Menu</Font></Hyperlink>, <Hyperlink linktarget="Help:Maplets,Elements,MenuItem" hyperlink="true"><Font bold="true" style="Hyperlink" family="Arial">MenuItem</Font></Hyperlink>,</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item"><Hyperlink linktarget="Help:Maplets,Elements,Plotter" hyperlink="true"><Font bold="true" style="Hyperlink" family="Arial">Plotter</Font></Hyperlink> und </Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item"><Hyperlink linktarget="Help:Maplets,Elements,CheckBox" hyperlink="true"><Font bold="true" style="Hyperlink" family="Arial">CheckBox</Font></Hyperlink>.</Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Bis jetzt wurden nur Listen (bzw. <Font bold="true" style="Text" family="Monospaced">BoxRow<Font italic="true">/</Font>BoxColumn</Font> Kommandos) benutzt, um das Layout des Maplets festzulegen. Die Maplet-Routine hat erkannt, dass es sich dabei um ein Fenster handelt. Um explizit festzulegen, dass sich die Beschreibung auf ein Fenster bezieht, kann die Funktion<Font bold="true" style="Text" family="Monospaced"> Window</Font><Font encoding="UTF-8"> benutzt werden, an die ein Titel und das eigentliche Layout \303\274bergeben wird. Die Funktion </Font><Font bold="true" style="Text" family="Monospaced">HorizontalGlue</Font><Font encoding="UTF-8"> erm\303\266glicht die flexible Positionierung der Elemente  in einer </Font><Font bold="true" style="Text" family="Monospaced">BoxRow</Font><Font encoding="UTF-8">. Das Men\303\274 wird mit der Funktion </Font><Font bold="true" style="Text" family="Monospaced">MenuItem<Font italic="true">(...)</Font></Font> aufgebaut, wobei jedem Eintrag, wie bei einem Button, eine Aktion zugewiesen wird.</Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L21" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Text" size="14" bold="true" family="Arial" layout="Heading 1"><Font bold="true" family="Arial" size="14">Maplet Viewer</Font></Text-field></Title>
+<Group labelreference="L22" drawlabel="true">
+<Input>
+<Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">\303\234ber das File-Men\303\274 k\303\266nnen Maple Worksheets als &quot;Maplet Files&quot; abgespeichert werden. Hierzu muss der Dateityp  </Font><Font bold="true" style="Text" family="Monospaced">Maplet</Font> in der angebotenen Liste bei  &quot;<Font bold="true" style="Text" family="Monospaced">Save As ...</Font>&quot; (Classic Worksheet Interface) bzw. <Font bold="true" style="Text" family="Monospaced">&quot;Export As ... &quot;</Font><Font encoding="UTF-8"> (Java Worksheet Interface) ausgew\303\244hlt werden. Die </Font><Font bold="true" style="Text" family="Monospaced">.maplet</Font> Datei kann nun mit dem <Hyperlink linktarget="Help:MapletViewer" hyperlink="true"><Font bold="true" style="Hyperlink" family="Arial">MapletViewer</Font></Hyperlink><Font encoding="UTF-8"> als Anwendung, unabh\303\244ngig von der Maple-Worksheet-Umgebung, gestartet werden. Unter Windows ist das ausf\303\274hrbare Programm  </Font><Font bold="true" style="Text" family="Monospaced">MapletViewer.exe</Font> mit den <Font bold="true" style="Text" family="Monospaced">.maplet</Font><Font bold="true" style="Text" family="Arial" italic="true"> </Font><Font encoding="UTF-8">Dateien verkn\303\274pft, sie k\303\266nnen somit durch Doppelklick gestartet werden. Unter UNIX werden Maplet Files auf der Kommandoebene durch Eingabe der Maple-Shell gefolgt vom Dateinamen des Maplets aufgerufen, z.B. </Font><Font bold="true" style="Text" family="Monospaced">maple test.maplet</Font><Font bold="true" style="Text" family="Arial" italic="true"> .</Font></Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L23" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Section>
+</Worksheet>

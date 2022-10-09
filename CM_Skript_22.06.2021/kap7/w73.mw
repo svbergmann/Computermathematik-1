@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="12" minor="1"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false"></View-Properties>
+<MapleNet-Properties elisiondigitsbefore="100" labelling="true" indentamount="4" elisiontermsthreshold="10000" ansi="false" errorbreak="1" useclientjvm="true" echo="1" imaginaryunit="I" labelwidth="20" plotdriver="openviz" elisiondigitsafter="100" plotoutput="terminal" rtablesize="10" elisiontermsbefore="100" elisiondigitsthreshold="10000" typesetting="standard" plotdevice="inline" verboseproc="1" showassumed="1" errorcursor="false" longdelim="true" plotoptions="" quiet="false" elisiontermsafter="100" screenwidth="79" preplot="" prettyprint="3" displayprecision="-1" warnlevel="3" screenheight="25" latexwidth="6.0" postplot="" prompt="&gt; " ShowLabels="true"/>
+<Styles><Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Maple Name" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[104,64,92]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Menus" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Fixed Width" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Plot Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="8" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal257" background="[255,255,255]" bold="true" executable="false" family="Arial" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Nonterminal" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Heading" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Variable" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Italic Bold" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Default" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Underlined Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output12" background="[255,255,255]" bold="true" executable="false" family="Arial" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Bold Small" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Small" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Page Number" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Output Labels" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="8" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Plot Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Emphasized" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Symbol 2" background="[255,255,255]" bold="false" executable="false" family="SymbolPi" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Comment" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="true" executable="false" family="Arial" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[64,128,64]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="9" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="true" executable="false" family="Arial" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Comment" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Underlined Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Copyright" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Help Underlined" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="true" executable="false" family="Arial" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Prompt" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Page Break" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="true" executable="false" family="Arial" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Notes" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="LaTeX" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Popup" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Left Justified Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Fixed" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Fixed Width" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="R3 Font 5" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal257" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Help" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="R3 Font 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="R3 Font 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="R3 Font 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="R3 Font 9" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="R3 Font 8" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="R3 Font 7" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="R3 Font 6" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="R3 Font 14" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="R3 Font 13" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="R3 Font 15" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="R3 Font 10" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="R3 Font 12" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="R3 Font 11" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.5" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Page Break" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output12" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.5" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="R3 Font 0" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Left Justified Maple Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.5" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+</Styles>
+<Footer left-content="" center-content="" right-content="&amp;[Page]" left-image-scale-width="100" center-image-scale-width="100" right-image-scale-width="100" left-image-scale-height="100" center-image-scale-height="100" right-image-scale-height="100" date-format="2" selected-index="0" first-number="1" first-numbered-page="1"/>
+<Task-table>
+    <Task-category name="&lt;default&gt;">
+    </Task-category>
+</Task-table>
+<Annotation-table>
+    <Annotation-category name="&lt;default&gt;">
+    </Annotation-category>
+</Annotation-table>
+<Task>
+</Task>
+<Group labelreference="L1" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L33" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(Statistics):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L2" drawlabel="true">
+<Input>
+<Text-field style="Normal" layout="Normal">In der Praxis stellt sich oft die Frage, durch welche Verteilung eine Stichprobe beschrieben werden kann und wie die entsprechenden Parameter zu bestimmen sind (<Hyperlink linktarget="Help:Statistics,Estimation" hyperlink="true"><Font style="Hyperlink" family="Arial">Statistics,Estimation</Font></Hyperlink>)<Font family="Lucida Sans">. </Font>Als Beispiel soll im Folgenden eine Stichprobe<Font family="Lucida Sans"> (</Font><Hyperlink linktarget="Help:Statistics,Sample" hyperlink="true"><Font style="Hyperlink" family="Arial">Sample</Font></Hyperlink>) vom Umfang <Font style="2D Math">500</Font> einer normalverteilten Zufallsvariable mit Mittelwert <Font style="2D Comment" encoding="UTF-8">\316\274=3</Font> und Standardabweichung <Font style="2D Math" encoding="UTF-8">\317\203=2</Font><Font bold="false"> </Font>dienen. Der Graph der  Dichte der theoretischen Verteilung (<Hyperlink linktarget="Help:Statistics,DensityPlot" hyperlink="true"><Font style="Hyperlink" family="Arial">DensityPlot</Font></Hyperlink>)  wird mit einem Histogramm der Stichprobe verglichen.</Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">X:=RandomVariable(Normal(3,2)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L4" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">S:=Sample(X,500):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L7" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ds:=DataSummary(S);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEjZHNGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkobWZlbmNlZEdGJDYmLUYjNjEtRiM2Jy1GLDYlUSVtZWFuRidGL0YyLUY2Ni1RIj1GJ0Y5RjtGPkZARkJGREZGRkhGSkZNLUkjbW5HRiQ2JFEsMy4wNTc2NzY5MzNGJ0Y5LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y5LUY2Ni1RIixGJ0Y5RjsvRj9GMUZARkJGREZGRkgvRktRJjAuMGVtRicvRk5RLDAuMzMzMzMzM2VtRictRiM2Jy1GLDYlUTJzdGFuZGFyZGRldmlhdGlvbkYnRi9GMkZZLUZnbjYkUSwxLjk3NjUyNTY5N0YnRjlGam5GOUZdby1GIzYnLUYsNiVRKXNrZXduZXNzRidGL0YyRlktRiM2JS1GNjYtUSomdW1pbnVzMDtGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GaHAtRmduNiRRLjAuMDg2Njc3MjExMjlGJ0Y5RjlGam5GOUZdby1GIzYnLUYsNiVRKWt1cnRvc2lzRidGL0YyRlktRmduNiRRLDMuMTM2NDE4NTIyRidGOUZqbkY5Rl1vLUYjNictRiw2JVEobWluaW11bUYnRi9GMkZZLUYjNiVGZHAtRmduNiRRLDMuMzQ0NzY3OTg4RidGOUY5RmpuRjlGXW8tRiM2Jy1GLDYlUShtYXhpbXVtRidGL0YyRlktRmduNiRRLDguMzY1NTA4NDk4RidGOUZqbkY5Rl1vLUYjNictRiw2JVExY3VtdWxhdGl2ZXdlaWdodEYnRi9GMkZZLUZnbjYkUSU1MDAuRidGOUZqbkY5RmpuRjlGOS8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJ0ZqbkY5">NykvSSVtZWFuRzYiJCIrTHBuZEkhIiovSTJzdGFuZGFyZGRldmlhdGlvbkdGJSQiKyhwRGwoPkYoL0kpc2tld25lc3NHRiUkIStINnNuJykhIzYvSSlrdXJ0b3Npc0dGJSQiK0EmPWs4JEYoL0kobWluaW11bUdGJSQhKykpendXTEYoL0kobWF4aW11bUdGJSQiKylcM2JPKUYoL0kxY3VtdWxhdGl2ZXdlaWdodEdGJSQiJCsmIiIh</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L5" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">H:=Histogram(S): mins:=rhs(ds[5]): maxs:=rhs(ds[6]):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L6" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">DP:=DensityPlot(X,range=mins-0.5..maxs+0.5,thickness=3):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L9" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">plots[display](H,DP);</Text-field>
+</Input>
+<Output>
+<Text-field style="Maple Plot" layout="Maple Plot"><Plot height="400" type="two-dimensional" width="400" plot-scale="1.0" plot-xtrans="0.0" plot-ytrans="0.0" gridlinevisibility="1" legendvisibility="false">NictJSlQT0xZR09OU0c2QTcmNyQkIS87WikpendXTCEjOCQiIiEhIiI3JCQhMGI8KlFhVWFIISM5JCIiISEiIjckJCEwYjwqUWFVYUghIzkkIi9zbWk0dUM1ISM6NyQkIS87WikpendXTCEjOCQiL3NtaTR1QzUhIzo3JjckJCEwYjwqUWFVYUghIzkkIiIhISIiNyQkIS9OTyopRzNrRCEjOCQiIiEhIiI3JCQhL05PKilHM2tEISM4JCIiISEiIjckJCEwYjwqUWFVYUghIzkkIiIhISIiNyY3JCQhL05PKilHM2tEISM4JCIiISEiIjckJCEyL1g0KVIudXRAISM7JCIiISEiIjckJCEyL1g0KVIudXRAISM7JCIiISEiIjckJCEvTk8qKUcza0QhIzgkIiIhISIiNyY3JCQhMi9YNClSLnV0QCEjOyQiIiEhIiI3JCQhMixTYi16KFIkeSIhIzskIiIhISIiNyQkITIsU2IteihSJHkiISM7JCIvc21pNHVDNSEjOjckJCEyL1g0KVIudXRAISM7JCIvc21pNHVDNSEjOjcmNyQkITIsU2IteihSJHkiISM7JCIiISEiIjckJCEyLE4sMkNiSVIiISM7JCIiISEiIjckJCEyLE4sMkNiSVIiISM7JCIvVkxEPltcPyEjOjckJCEyLFNiLXooUiR5IiEjOyQiL1ZMRD5bXD8hIzo3JjckJCEyLE4sMkNiSVIiISM7JCIiISEiIjckJCEvdDkicDdGKyIhIzgkIiIhISIiNyQkIS90OSJwN0YrIiEjOCQiL1ZMRD5bXD8hIzo3JCQhMixOLDJDYklSIiEjOyQiL1ZMRD5bXD8hIzo3JjckJCEvdDkicDdGKyIhIzgkIiIhISIiNyQkITEqXEtmVCxQNychIzskIiIhISIiNyQkITEqXEtmVCxQNychIzskIi86KykpR0F1SSEjOjckJCEvdDkicDdGKyIhIzgkIi86KykpR0F1SSEjOjcmNyQkITEqXEtmVCxQNychIzskIiIhISIiNyQkITIzKyNSP2ZGP0EhIzwkIiIhISIiNyQkITIzKyNSP2ZGP0EhIzwkIi9lTDhbcUJeISM6NyQkITEqXEtmVCxQNychIzskIi9lTDhbcUJeISM6NyY3JCQhMjMrI1I/ZkY/QSEjPCQiIiEhIiI3JCQiMShcW15kXEpvIiEjOyQiIiEhIiI3JCQiMShcW15kXEpvIiEjOyQiL0ErS1ZMNlkhIzo3JCQhMjMrI1I/ZkY/QSEjPCQiL0ErS1ZMNlkhIzo3JjckJCIxKFxbXmRcSm8iISM7JCIiISEiIjckJCIxKioqKW9xXWQnZSYhIzskIiIhISIiNyQkIjEqKiopb3FdZCdlJiEjOyQiLyVwWUh2Z2omISM6NyQkIjEoXFteZFxKbyIhIzskIi8lcFlIdmdqJiEjOjcmNyQkIjEqKiopb3FdZCdlJiEjOyQiIiEhIiI3JCQiMS0mSGljKytcKiEjOyQiIiEhIiI3JCQiMS0mSGljKytcKiEjOyQiL3MxMkBYeTYhIzk3JCQiMSoqKilvcV1kJ2UmISM7JCIvczEyQFh5NiEjOTcmNyQkIjEtJkhpYysrXCohIzskIiIhISIiNyQkIi54aGdVJFI4ISM3JCIiISEiIjckJCIueGhnVSRSOCEjNyQiL1craydvRUEqISM6NyQkIjEtJkhpYysrXCohIzskIi9XK2snb0VBKiEjOjcmNyQkIi54aGdVJFI4ISM3JCIiISEiIjckJCIyKVw1dGJeb0g8ISM7JCIiISEiIjckJCIyKVw1dGJeb0g8ISM7JCIvVWBPJ2Y/dSIhIzk3JCQiLnhoZ1UkUjghIzckIi9VYE8nZj91IiEjOTcmNyQkIjIpXDV0Yl5vSDwhIzskIiIhISIiNyQkIjIvNSZHMHgtP0AhIzskIiIhISIiNyQkIjIvNSZHMHgtP0AhIzskIi94WXQqPTI1IyEjOTckJCIyKVw1dGJeb0g8ISM7JCIveFl0Kj0yNSMhIzk3JjckJCIyLzUmRzB4LT9AISM7JCIiISEiIjckJCIwOlJbRHEuXiMhIzkkIiIhISIiNyQkIjA6UltEcS5eIyEjOSQiLzJnKkgrTVEiISM5NyQkIjIvNSZHMHgtP0AhIzskIi8yZypIK01RIiEjOTcmNyQkIjA6UltEcS5eIyEjOSQiIiEhIiI3JCQiL0tSL0dyK0ghIzgkIiIhISIiNyQkIi9LUi9HcitIISM4JCIvdm0lbydIJHoiISM5NyQkIjA6UltEcS5eIyEjOSQiL3ZtJW8nSCR6IiEjOTcmNyQkIi9LUi9HcitIISM4JCIiISEiIjckJCIwRFpSTmI1SCQhIzkkIiIhISIiNyQkIjBEWlJOYjVIJCEjOSQiLzQhR3RMWCU9ISM5NyQkIi9LUi9HcitIISM4JCIvNCFHdExYJT0hIzk3JjckJCIwRFpSTmI1SCQhIzkkIiIhISIiNyQkIjInKkgsTiF6UiJvJCEjOyQiIiEhIiI3JCQiMicqSCxOIXpSIm8kISM7JCIvOD8qZitvdyMhIzk3JCQiMERaUk5iNUgkISM5JCIvOD8qZitvdyMhIzk3JjckJCIyJypILE4helIibyQhIzskIiIhISIiNyQkIjBOYklYUzwyJSEjOSQiIiEhIiI3JCQiME5iSVhTPDIlISM5JCIvUkwuaSM0RyIhIzk3JCQiMicqSCxOIXpSIm8kISM7JCIvUkwuaSM0RyIhIzk3JjckJCIwTmJJWFM8MiUhIzkkIiIhISIiNyQkIjIwUzRFKyQzaVchIzskIiIhISIiNyQkIjIwUzRFKyQzaVchIzskIi9VJDR5cWQqPSEjOTckJCIwTmJJWFM8MiUhIzkkIi9VJDR5cWQqPSEjOTcmNyQkIjIwUzRFKyQzaVchIzskIiIhISIiNyQkIjFcTTtfYlVfWyEjOiQiIiEhIiI3JCQiMVxNO19iVV9bISM6JCIvVSQ0eXFkKj0hIzk3JCQiMjBTNEUrJDNpVyEjOyQiL1UkNHlxZCo9ISM5NyY3JCQiMVxNO19iVV9bISM6JCIiISEiIjckJCIvdnIsIm9GQyYhIzgkIiIhISIiNyQkIi92ciwib0ZDJiEjOCQiL1JMLmkjNEciISM5NyQkIjFcTTtfYlVfWyEjOiQiL1JMLmkjNEciISM5NyY3JCQiL3ZyLCJvRkMmISM4JCIiISEiIjckJCIxXDpGXjE2TGMhIzokIiIhISIiNyQkIjFcOkZeMTZMYyEjOiQiL2xMZGkiM20nISM6NyQkIi92ciwib0ZDJiEjOCQiL2xMZGkiM20nISM6NyY3JCQiMVw6Rl4xNkxjISM6JCIiISEiIjckJCIvYyMzP2BNLSchIzgkIiIhISIiNyQkIi9jIzM/YE0tJyEjOCQiL1craydvRUEqISM6NyQkIjFcOkZeMTZMYyEjOiQiL1craydvRUEqISM6NyY3JCQiL2MjMz9gTS0nISM4JCIiISEiIjckJCIwbHoudiZ6OGshIzkkIiIhISIiNyQkIjBsei52Jno4ayEjOSQiLyxuUW49dHIhIzo3JCQiL2MjMz9gTS0nISM4JCIvLG5Rbj10ciEjOjcmNyQkIjBsei52Jno4ayEjOSQiIiEhIiI3JCQiMSpwTCoqSFFUIW8hIzokIiIhISIiNyQkIjEqcEwqKkhRVCFvISM6JCIvZUw4W3FCXiEjOzckJCIwbHoudiZ6OGshIzkkIi9lTDhbcUJeISM7NyY3JCQiMSpwTCoqSFFUIW8hIzokIiIhISIiNyQkIjB2KFtcM1slPighIzkkIiIhISIiNyQkIjB2KFtcM1slPighIzkkIiIhISIiNyQkIjEqcEwqKkhRVCFvISM6JCIiISEiIjcmNyQkIjB2KFtcM1slPighIzkkIiIhISIiNyQkIjEsPS8qUkJbZSghIzokIiIhISIiNyQkIjEsPS8qUkJbZSghIzokIi96bTFDJj1jIyEjOjckJCIwdihbXDNbJT4oISM5JCIvem0xQyY9YyMhIzo3JjckJCIxLD0vKlJCW2UoISM6JCIiISEiIjckJCIyJlxlZltmO3Z6ISM7JCIiISEiIjckJCIyJlxlZltmO3Z6ISM7JCIvVkxEPltcPyEjOjckJCIxLD0vKlJCW2UoISM6JCIvVkxEPltcPyEjOjcmNyQkIjImXGVmW2Y7dnohIzskIiIhISIiNyQkIi8qXCIpXDNiTykhIzgkIiIhISIiNyQkIi8qXCIpXDNiTykhIzgkIi96bTFDJj1jIyEjOjckJCIyJlxlZltmO3Z6ISM7JCIvem0xQyY9YyMhIzotJSZDT0xPUkc2JiUkSFNWRyQiMXRCPW8xJ1taJiEjOyQiIzUhIiIkIjFyQ3k/ITMnPnEhIzstJSdDVVJWRVNHNiU3ZW43JCQhKykpendXUSEiKiQiMD0tJ0cvPDNkISM9NyQkIS9QJD44P3hjJCEjOCQiMUU4WiVSTEczKiEjPjckJCEyKFtzdHRBbUVMISM7JCIyVUFEej9iJlI4ISM+NyQkITIkejR1K3ZjYkkhIzskIjJqRTBHVkR6LiMhIz43JCQhMndDOmN0dkV5IyEjOyQiMlpIOWYtaj0wJCEjPjckJCExZk9UeDQzNkQhIzokIjFtJz5nR2h6WiUhIz03JCQhMWo8LHF5RmZBISM6JCIxKVwjUSNbP11HJyEjPTckJCEyaEgtdExdJikqPiEjOyQiMSpba19tVit5KSEjPTckJCEyYWQqKipcYiEqRzwhIzskIjJ4KXByLHNuPTchIz03JCQhMm5aXHBeRCxZIiEjOyQiMk4sKCp6d2olZjshIz03JCQhMlgmPXA6QWwkPSIhIzskIjEzJ0dLQCE9UEEhIzw3JCQhMWZlYzlRTSwlKiEjOyQiMSMqPW82LSJbJ0chIzw3JCQhMFcpXHIoNCpmbSEjOiQiMEAmcEcrJ3lyJCEjOzckJCExRSdlbzg+cyFSISM7JCIxankhW3pNJ1JaISM8NyQkITF2P0BcO1xhNyEjOyQiMURUbkBkeSMpZSEjPDckJCIyUS0xYS9SVzoiISM8JCIxMXBVKno6KVxxISM8NyQkIjJkN3MhUTEqKT1TISM8JCIxZlJFUkwmKnkmKSEjPDckJCIxKEglem5vWFhrISM7JCIxTDYqKjNKJClwKiohIzw3JCQiMSJIJ0dlLThvIyohIzskIjJaZEhtVitjOyIhIzw3JCQiMjI6WiNcdW13NiEjOyQiMkMvIjRMMlc7OCEjPDckJCIxLEpgXnR6XTkhIzokIjJ0SUpMQTh4WiIhIzw3JCQiMiUqPiVlV1EkPXIiISM7JCIybUsjelBoMEA7ISM8NyQkIjFqbWJTISk+JSk+ISM6JCIyJ1xJRHM5TGA8ISM8NyQkIjJgYWZgUjhWQiMhIzskIjJ2MWE3Inp2YD0hIzw3JCQiMlZBRFxmJzQvRCEjOyQiMiRmNSRSekVWJD4hIzw3JCQiMUdoXWM1QFdFISM6JCIyI1I5KD4vKFJqPiEjPDckJCIxS3EzPWJLJXkjISM6JCIyIypvJW9NcDkkKT4hIzw3JCQiMSkpZlZWMEpYRyEjOiQiMiZRMCJ6I1J2KSk+ISM8NyQkIjJYJVx5b2JIMUghIzskIjFCVl14S18jKj4hIzs3JCQiMSxSOCVmIUduSCEjOiQiMSlmMXhbV1cqPiEjOzckJCIxZEdbPmNFR0khIzokIjJzVzBRPzdYKj4hIzw3JCQiMSU0KmY8NjglNCQhIzokIjJfLSJ6OkxdIyo+ISM8NyQkIjFKYHI6bSoqZkohIzokIjBPPm56USQpKT4hIzo3JCQiMiVvOiRRNmllQSQhIzskIjJZKjQ3ckAuIyk+ISM8NyQkIjEweSU+aEY8SCQhIzokIjIuJnA5JSlRZ3Q+ISM8NyQkIjJ0P1Y0aT15VSQhIzskIjFMXjYjSCRmXD4hIzs3JCQiMiY0J1EqSCc0UmMkISM7JCIxTWZIYSN5cCI+ISM7NyQkIjFwaWBMbT1JUSEjOiQiMllcM0sqKWUrJD0hIzw3JCQiMk5WRGlLQnkzJSEjOyQiMidRLlInKilRL3MiISM8NyQkIjA4LnclXClRUCUhIzkkIjJ4XihmJD5yYWQiISM8NyQkIjJsZTp2LkM0aiUhIzskIjJsbUctRCFbSTkhIzw3JCQiMiZcQiopSCJvYCFcISM7JCIyJkgkeXF3YnFFIiEjPDckJCIxUSIpKnpFYlM6JiEjOiQiMmZfX1IxVW82IiEjPDckJCIxbihHbypmJGZVJiEjOiQiMTsnNFVFdyZlJiohIzw3JCQiMUt4XHVYdiJvJiEjOiQiMSkpRzxdMD89IikhIzw3JCQiMUdXJCopcGUiXGYhIzokIjFHZic+SzFhcychIzw3JCQiMSdHJmYyXmY1aSEjOiQiMS5IRzBYOipcJiEjPDckJCIxeHl6KXolSCVbJyEjOiQiMjpTJ1FoO1V0ViEjPTckJCIxJyplU0osIXp1JyEjOiQiMWBNOCdHKjNZTSEjPDckJCIxJFJmdGx1dSwoISM6JCIydEVZInBKb19FISM9NyQkIjFeRjhxcCJbRyghIzokIjJqTiJSNWApKjQ/ISM9NyQkIjFfSFohencvYCghIzokIjJGUSIqeShbSkw6ISM9NyQkIjFFJHpzbUk/InkhIzokIjE+JGZqU2RPNSIhIzw3JCQiMDNCNiJlJlExKSEjOSQiMXNsKXpObHczKSEjPTckJCIxVVk9UVJOSyQpISM6JCIxMmtecXpWMGQhIz03JCQiMGhyYCE0TSplKSEjOSQiMXpeUSJwcnIsJSEjPTckJCIrKVwzYicpKSEiKiQiMkM6YS15PV5xIyEjPi0lJkNPTE9SRzYmJSRIU1ZHJCIxdEI9bzEnW1omISM7JCIjNSEiIiQiMXJDeT8hMyc+cSEjOy0lKlRISUNLTkVTU0c2IyIiJC0lJVZJRVdHNiQ7JCErKSl6d1dRISIqJCIrKVwzYicpKSEiKiUoREVGQVVMVEctJStBWEVTTEFCRUxTRzYnUSE2IlEhNiItJSVGT05URzYlJShERUZBVUxURyUoREVGQVVMVEciIzUlK0hPUklaT05UQUxHJStIT1JJWk9OVEFMRy0lJVJPT1RHNictJSlCT1VORFNfWEc2IyQiIyEqISIiLSUpQk9VTkRTX1lHNiMkIiNdISIiLSUtQk9VTkRTX1dJRFRIRzYjJCIlSVEhIiItJS5CT1VORFNfSEVJR0hURzYjJCIlP04hIiItJSlDSElMRFJFTkc2Ig==</Plot></Text-field>
+</Output>
+</Group>
+<Group labelreference="L17" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Die Maximum-Likelihood-Methode ist ein Verfahren zur m<Font encoding="UTF-8">\303\266</Font>glichst genauen Sch<Font encoding="UTF-8">\303\244</Font>tzung (<Hyperlink linktarget="Help:MaximumLikelihoodEstimate" hyperlink="true"><Font style="Hyperlink" family="Arial">MaximumLikelihoodEstimate</Font></Hyperlink>) der Verteilungskennwerte auf Grundlage der Stichprobenwerte, <Font encoding="UTF-8">die meist erwartungstreue Sch\303\244tzwerte liefert; Die Momente (</Font><Hyperlink linktarget="Help:Statistics,Moment" hyperlink="true"><Font style="Hyperlink" family="Arial">Moment</Font></Hyperlink>) sind i.A. nicht erwartungstreu. Im folgenden nehmen wir an, dass unsere Stichprobe durch eine Normalverteilung beschrieben werden kann und sch<Font encoding="UTF-8">\303\244tzen einerseits die Standardabweichung bei bekanntem Mittelwert und andererseits den Mittelwert bei </Font>bekannter Standardabweichung:</Text-field>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L16" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">MaximumLikelihoodEstimate(Normal(3,sigma),S);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">JCIrIVEhUnY+ISIq</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L18" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">M:=MaximumLikelihoodEstimate(Normal(mu,2),S);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEiTUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSwzLjA1NzY3NjkzNEYnRjkvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnRjk=">JCIrTXBuZEkhIio=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L19" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Alternativ  kann das Minimum der Likelihood-Funktion (<Hyperlink linktarget="Help:Likelihood" hyperlink="true"><Font style="Hyperlink" family="Arial">Likelihood</Font></Hyperlink>) bzw. der logarithmierten Likelihood-Funktion (<Hyperlink linktarget="Help:LogLikelihood" hyperlink="true"><Font style="Hyperlink" family="Arial">LogLikelihood</Font></Hyperlink>) bestimmt werden. Um ein <Font style="2D Comment">95 %</Font> Konfidenz-Intervall f<Font encoding="UTF-8">\303\274r den zweiten Sch\303\244</Font>tzwert zu bestimmen, wird die <Hyperlink linktarget="Help:LikelihoodRatioStatistic" hyperlink="true"><Font style="Hyperlink" family="Arial">LikelihoodRatioStatistic</Font></Hyperlink> betrachtet. <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzY1LUkjbWlHRiQ2KFEkU2llRicvJSdmYW1pbHlHUSZBcmlhbEYnLyUlYm9sZEdRJXRydWVGJy8lJ2l0YWxpY0dRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJWJvbGRGJy8lK2ZvbnR3ZWlnaHRHRjotSSNtb0dGJDYtUTEmSW52aXNpYmxlVGltZXM7RicvRjlRJ25vcm1hbEYnLyUmZmVuY2VHRjcvJSpzZXBhcmF0b3JHRjcvJSlzdHJldGNoeUdGNy8lKnN5bW1ldHJpY0dGNy8lKGxhcmdlb3BHRjcvJS5tb3ZhYmxlbGltaXRzR0Y3LyUnYWNjZW50R0Y3LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGUy1GLDYoUSRpc3RGJ0YvRjJGNUY4RjtGPS1GLDYoUSNpbUYnRi9GMkY1RjhGO0Y9LUYsNihRLEFsbGdlbWVpbmVuRidGL0YyRjVGOEY7LUY+NjBRIn5GJ0YvRjJGOEY7RkNGRUZHRklGS0ZNRk9GUUZULUklbXN1cEdGJDYlLUYsNidRJyYjOTY3O0YnRjJGNUY4RjstSSNtbkdGJDYmUSIyRidGMkY4RjsvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUY+NjFRKiZ1bWludXMwO0YnRi9GMi8lMGZvbnRfc3R5bGVfbmFtZUdRJVRleHRGJ0Y4RjtGQ0ZFRkdGSUZLRk1GTy9GUlEsMC4yMjIyMjIyZW1GJy9GVUZgcC1GLDYpUSl2ZXJ0ZWlsdEYnRi9GMkY1RlxwRjhGOy1GPjYxRltvRi9GMkZccEY4RjtGQ0ZFRkdGSUZLRk1GT0ZRRlQtRiw2KVEkbWl0RidGL0YyRjVGXHBGOEY7RmVwLUYsNilRJmVpbmVtRidGL0YyRjVGXHBGOEY7RmVwLUYsNilRLkZyZWloZWl0c2dyYWRGJ0YvRjJGNUZccEY4RjstRj42MVEiLkYnRi9GMkZccEY4RjtGQ0ZFRkdGSUZLRk1GT0ZRRlRGQQ==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzY1LUkjbWlHRiQ2KFEkU2llRicvJSdmYW1pbHlHUSZBcmlhbEYnLyUlYm9sZEdRJXRydWVGJy8lJ2l0YWxpY0dRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJWJvbGRGJy8lK2ZvbnR3ZWlnaHRHRjotSSNtb0dGJDYtUTEmSW52aXNpYmxlVGltZXM7RicvRjlRJ25vcm1hbEYnLyUmZmVuY2VHRjcvJSpzZXBhcmF0b3JHRjcvJSlzdHJldGNoeUdGNy8lKnN5bW1ldHJpY0dGNy8lKGxhcmdlb3BHRjcvJS5tb3ZhYmxlbGltaXRzR0Y3LyUnYWNjZW50R0Y3LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGUy1GLDYoUSRpc3RGJ0YvRjJGNUY4RjtGPS1GLDYoUSNpbUYnRi9GMkY1RjhGO0Y9LUYsNihRLEFsbGdlbWVpbmVuRidGL0YyRjVGOEY7LUY+NjBRIn5GJ0YvRjJGOEY7RkNGRUZHRklGS0ZNRk9GUUZULUklbXN1cEdGJDYlLUYsNidRJyYjOTY3O0YnRjJGNUY4RjstSSNtbkdGJDYmUSIyRidGMkY4RjsvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUY+NjFRKiZ1bWludXMwO0YnRi9GMi8lMGZvbnRfc3R5bGVfbmFtZUdRJVRleHRGJ0Y4RjtGQ0ZFRkdGSUZLRk1GTy9GUlEsMC4yMjIyMjIyZW1GJy9GVUZgcC1GLDYpUSl2ZXJ0ZWlsdEYnRi9GMkY1RlxwRjhGOy1GPjYxRltvRi9GMkZccEY4RjtGQ0ZFRkdGSUZLRk1GT0ZRRlQtRiw2KVEkbWl0RidGL0YyRjVGXHBGOEY7RmVwLUYsNilRJmVpbmVtRidGL0YyRjVGXHBGOEY7RmVwLUYsNilRLkZyZWloZWl0c2dyYWRGJ0YvRjJGNUZccEY4RjstRj42MVEiLkYnRi9GMkZccEY4RjtGQ0ZFRkdGSUZLRk1GT0ZRRlRGQQ==</Equation></Text-field>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L20" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">L:=LikelihoodRatioStatistic(Normal(mu,2),S);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEiTEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2KC1JI21uR0YkNiRRLDExNjguNjczNTI5RidGOS1GNjYtUSIrRidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjIyMjIyMjJlbUYnL0ZORlktRiM2Ji1GUjYkUSUxMjUuRidGOS1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORl5vLUklbXN1cEdGJDYlLUYsNiVRJyYjOTU2O0YnL0YwRj1GOS1GUjYkUSIyRidGOS8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRidGOS1GNjYtUSgmbWludXM7RidGOUY7Rj5GQEZCRkRGRkZIRlhGWi1GIzYmLUZSNiRRLDc2NC40MTkyMzM0RidGOUZqbkZjb0Y5RjkvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnRjk=">LCgkIitITm5vNiEiJyIiIiokSSNtdUc2IiIiIyQiJEQiIiIhRigkIStNQj5XdyEiKA==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L22" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">theta:=Quantile(ChiSquare(1),0.95);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEnJiM5NTI7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RIzo9RidGMi8lJmZlbmNlR0YxLyUqc2VwYXJhdG9yR0YxLyUpc3RyZXRjaHlHRjEvJSpzeW1tZXRyaWNHRjEvJShsYXJnZW9wR0YxLyUubW92YWJsZWxpbWl0c0dGMS8lJ2FjY2VudEdGMS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkktSSNtbkdGJDYkUSwzLjg0MTQ1NjA2NkYnRjIvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnRjI=">JCIrbWdYVFEhIio=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L45" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">CI:=fsolve(L=theta,mu=-infinity..M)..fsolve(L=theta,mu=M..infinity)<Font family="Arial">;</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEjQ0lGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYjNictSSNtbkdGJDYkUSwyLjg4MjM3MjQ5NUYnRjktRjY2LVEjLi5GJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5RJjAuMGVtRictRlI2JFEsMy4yMzI5ODEzNzJGJ0Y5LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y5RmluRjk=">OyQiKyZcc0IpRyEiKiQiK3M4KUhCJEYl</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L15" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Das Bootstrap-Verfahren (<Hyperlink linktarget="Help:Statistics,Bootstrap" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">Bootstrap</Font></Hyperlink>) approximiert die Parameter einer Verteilung, indem aus der gegebenen Stichprobe <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEtcmVwbGljYXRpb25zRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEifkYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZMRjk=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEtcmVwbGljYXRpb25zRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEifkYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZMRjk=</Equation>mal eine neue Stichprobe im gleichen Umfang mit Zur<Font encoding="UTF-8">\303\274cklegen gebildet wird und dann die jeweiligen Ergebnisse gemittelt werden. </Font></Text-field>
+<Text-field style="Text" family="Lucida Sans" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L10" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Bootstrap(Mean,S,replications=1000,output=[<Font style="Help Maple Name" family="Monospaced" executable="true" foreground="[255,0,0]">'value'</Font>,<Font style="Help Bold" family="Monospaced" executable="true" foreground="[255,0,0]">'standarderror']);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NyQkIiteZStjSSEiKiQiK1VWPyQpKSkhIzY=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L11" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Bootstrap(StandardDeviation,S,replications=1000,output=[<Font style="Help Maple Name" family="Monospaced" executable="true" foreground="[255,0,0]">'value'</Font>,<Font style="Help Bold" family="Monospaced" executable="true" foreground="[255,0,0]">'standarderror']);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NyQkIitXX29zPiEiKiQiK1RuUiJbJyEjNg==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L24" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Ein statistischer Test (<Hyperlink linktarget="Help:Statistics,Tests" hyperlink="true"><Font style="Hyperlink" family="Arial">Statistics,Tests</Font></Hyperlink>)<Font encoding="UTF-8"> dient dazu, anhand vorliegender Beobachtungen eine begr\303\274ndete Entscheidung \303\274ber die G\303\274ltigkeit oder Ung\303\274ltigkeit einer Hypothese zu treffen. Da die vorhandenen Daten Realisationen von Zufallsvariablen sind, l\303\244sst sich niemals mit Sicherheit sagen, ob eine Hypothese stimmt oder nicht. Man versucht daher, die Wahrscheinlichkeiten f\303\274r Fehlentscheidungen zu kontrollieren, was einem Test zu einem vorgegebenen Signifikanzniveau entspricht. </Font>Als erstes soll mit <Hyperlink linktarget="Help:ShapiroWilkWTest" hyperlink="true"><Font style="Hyperlink" family="Arial">ShapiroWilkWTest</Font></Hyperlink> gepr<Font encoding="UTF-8">\303\274ft werden, ob die Stichprobe einer Normalverteilung gen\303\274gt.</Font></Text-field>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L26" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ShapiroWilkWTest(S,level=.05);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiUvSStoeXBvdGhlc2lzRzYiSSV0cnVlRyUqcHJvdGVjdGVkRy9JJ3B2YWx1ZUdGJSQiK2xxUjBQISM1L0kqc3RhdGlzdGljR0YlJCIrb0E/UikqRiw=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L47" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Hyperlink linktarget="Help:ChiSquareSuitableModelTest" hyperlink="true"><Font style="Hyperlink" family="Arial">ChiSquareSuitableModelTest</Font></Hyperlink> <Font encoding="UTF-8">erlaubt die Pr\303\274fung auf eine beliebige Verteilung:
+</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L48" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" family="Arial" layout="Normal"><Font family="Monospaced">ChiSquareSuitableModelTest(S,Normal(2,3),bins=500);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NicvSStoeXBvdGhlc2lzRzYiSSV0cnVlRyUqcHJvdGVjdGVkRy9JLmNyaXRpY2FsdmFsdWVHRiUkIitFdXU/YiEiKC9JLWRpc3RyaWJ1dGlvbkdGJS1JKkNoaVNxdWFyZUdGJTYjIiQqXC9JJ3B2YWx1ZUdGJSQiKzYyd1ooKiEjNS9JKnN0YXRpc3RpY0dGJSQiKyc0KDMiUiVGLA==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L27" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Mit  <Hyperlink linktarget="Help:OneSampleZTest" hyperlink="true"><Font style="Hyperlink" family="Arial">OneSampleZTest</Font></Hyperlink> soll jetzt getestet werden, ob bei bekannter Standardabweichung <Font style="2D Comment" encoding="UTF-8">\317\203=2</Font><Font style="2D Comment"> </Font>die Stichprobe  mit einem Signifikanzniveau von <Font style="2D Comment" encoding="UTF-8">\316\261=0.01</Font>, d.h. <Font style="2D Comment">1 %</Font> Irrtumswahrscheinlichkeit, einen Mittelwert von <Font style="2D Math">3</Font> haben kann.</Text-field>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L12" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">infolevel[Statistics]:=1:
+sigma:=2:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L13" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">OneSampleZTest(S,3,sigma,confidence=0.99);</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Standard Z-Test on One Sample
+-----------------------------
+Null Hypothesis:
+Sample drawn from population with mean 3 and known standard deviation 2
+Alt. Hypothesis:
+Sample drawn from population with mean not equal to 3 and known standard deviation 2
+
+Sample size:             500
+Sample mean:             3.05768
+Distribution:            Normal(0,1)
+Computed statistic:      0.644848
+Computed pvalue:         0.519026
+Confidence interval:     2.827287756 .. 3.288066110
+                         (population mean)
+
+Result: [Accepted]
+There is no statistical evidence against the null hypothesis</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NicvSStoeXBvdGhlc2lzRzYiSSV0cnVlRyUqcHJvdGVjdGVkRy9JM2NvbmZpZGVuY2VpbnRlcnZhbEdGJTskIitjeEdGRyEiKiQiKzVoMSlHJEYtL0ktZGlzdHJpYnV0aW9uR0YlLUknTm9ybWFsRzYkRidJKF9zeXNsaWJHRiU2JCIiISIiIi9JJ3B2YWx1ZUdGJSQiK3coZS0+JiEjNS9JKnN0YXRpc3RpY0dGJSQiK1hyWltrRj0=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L51" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Mit <Hyperlink linktarget="Help:OneSampleZTest" hyperlink="true"><Font style="Hyperlink" family="Arial">SampleSize</Font></Hyperlink><Font encoding="UTF-8"> l\303\244sst sich ermitteln, wie gro\303\237 der Stichprobenumfang mindestens sein muss, um eine vorgegebene Breite des Konfidenzintervalls zu erreichen.
+</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L50" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" family="Arial" layout="Normal"><Font family="Monospaced">OneSampleZTest[SampleSize](0.3,sigma,confidence=0.99);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiUhPSI=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L40" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Mit <Hyperlink linktarget="Help:OneSampleTTest" hyperlink="true"><Font style="Hyperlink" family="Arial">OneSampleTTest</Font></Hyperlink> kann nun dieselbe Hypothese getestet werden, allerdings bei unbekannter Standardabweichung und defaultm<Font encoding="UTF-8">\303\244\303\237ig </Font>mit einem <Font style="2D Math">95 %</Font> Konfidenzintervall.</Text-field>
+<Text-field style="Text" family="Lucida Sans" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L14" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">OneSampleTTest(S,3);</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Standard T-Test on One Sample
+-----------------------------
+Null Hypothesis:
+Sample drawn from population with mean 3</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Alt. Hypothesis:
+Sample drawn from population with mean not equal to 3
+
+Sample size:             500
+Sample mean:             3.05768
+Sample standard dev.:    1.97653
+Distribution:            StudentT(499)
+Computed statistic:      0.652506
+Computed pvalue:         0.514375
+Confidence interval:     2.884008772 .. 3.231345094
+                         (population mean)
+
+Result: [Accepted]
+There is no statistical evidence against the null hypothesis</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NicvSStoeXBvdGhlc2lzRzYiSSV0cnVlRyUqcHJvdGVjdGVkRy9JM2NvbmZpZGVuY2VpbnRlcnZhbEdGJTskIitzKDNTKUchIiokIislNFg4QiRGLS9JLWRpc3RyaWJ1dGlvbkdGJS1JKVN0dWRlbnRUR0YlNiMiJCpcL0kncHZhbHVlR0YlJCIrTTR2Vl4hIzUvSSpzdGF0aXN0aWNHRiUkIismemldXydGOg==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L28" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Der <Hyperlink linktarget="Help:OneSampleChiSquareTest" hyperlink="true"><Font style="Hyperlink" family="Arial">OneSampleChiSquareTest</Font></Hyperlink> betrachtet die Hypothese, dass die Standardabweichung einen gewissen Wert annimmt. F<Font encoding="UTF-8">\303\274r die Beispielstichprobe mit Standardabweichung </Font><Font style="2D Math">2</Font> wird die Hypothese, dass dieser Wert <Font style="2D Math">1.85</Font> ist, verworfen.</Text-field>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L25" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">OneSampleChiSquareTest(S,1.85,confidence=.95);</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Chi-Square Test on One Sample
+-----------------------------
+Null Hypothesis:
+Sample drawn from population with standard deviation equal to 1.85
+Alt. Hypothesis:
+Sample drawn from population with standard deviation not equal to 1.85
+
+Sample size:             500
+Sample standard dev.:    1.97653
+Distribution:            ChiSquare(499)
+Computed statistic:      569.59
+Computed pvalue:         0.0309358
+Confidence interval:     1.861143013 .. 2.107276170
+                         (population standard deviation)
+
+Result: [Rejected]
+There exists statistical evidence against the null hypothesis</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NicvSStoeXBvdGhlc2lzRzYiSSZmYWxzZUclKnByb3RlY3RlZEcvSTNjb25maWRlbmNlaW50ZXJ2YWxHRiU7JCIrOEk5aD0hIiokIitxaEYyQEYtL0ktZGlzdHJpYnV0aW9uR0YlLUkqQ2hpU3F1YXJlR0YlNiMiJCpcL0kncHZhbHVlR0YlJCIpJnlONCRGLS9JKnN0YXRpc3RpY0dGJSQiK3piKmVwJiEiKA==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L41" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Nun soll der  Mittelwert zweier Stichproben  verglichen werden.  Es sei neben der Stichprobe <Font style="2D Math">S</Font> eine zweite Stichprobe <Font style="2D Math">SY</Font> gegeben, die normalverteilt mit Mittelwert <Font style="2D Math" encoding="UTF-8">\316\274=4</Font> und Standardabweichung <Font style="2D Math" encoding="UTF-8">\317\203=2</Font> ist, d.h., die Differenz zwischen den Mittelwerten der beiden Proben ist <Font style="2D Math">1</Font> bei gleicher Standardabweichung. Wir vergleichen nun die beiden Stichproben unter der Hypothese, dass  <Font style="2D Comment">Mittelwert(S) - Mittelwert(SY) = 1.2</Font> ist.  <Hyperlink linktarget="Help:TwoSampleTTest" hyperlink="true"><Font style="Hyperlink" family="Arial">TwoSampleTTest</Font></Hyperlink> wird benutzt, wenn  keine Informationen <Font encoding="UTF-8">\303\274ber die Standardabweichungen der beiden Stichproben vorliegen, </Font> <Hyperlink linktarget="Help:TwoSampleZTest" hyperlink="true"><Font style="Hyperlink" family="Arial">TwoSampleZTest</Font></Hyperlink>, wenn die Standardabweichungen bekannt sind.</Text-field>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L29" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Y:=RandomVariable(Normal(4,2)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L34" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">SY:=Sample(Y,200):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L35" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">TwoSampleTTest(S,SY,1.2,confidence=.95);</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Standard T-Test on Two Samples (Unequal Variances)
+--------------------------------------------------
+Null Hypothesis:
+Sample drawn from populations with difference of means equal to 1.2
+Alt. Hypothesis:
+Sample drawn from population with difference of means not equal to 1.2
+
+Sample sizes:            500, 200
+Sample means:            3.05768, 4.05532
+Sample standard devs.:   1.97653, 1.94774
+Difference in means:     -0.997642
+Distribution:            StudentT(371.5628512)
+Computed statistic:      -13.4288
+Computed pvalue:         8.61747e-34
+Confidence interval:     -1.319441037 .. -.6758425393
+                         (difference of population means)
+
+Result: [Rejected]
+There exists statistical evidence against the null hypothesis</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NicvSStoeXBvdGhlc2lzRzYiSSZmYWxzZUclKnByb3RlY3RlZEcvSTNjb25maWRlbmNlaW50ZXJ2YWxHRiU7JCErUDVXPjghIiokISskUkQlZW4hIzUvSS1kaXN0cmlidXRpb25HRiUtSSlTdHVkZW50VEdGJTYjJCIrNyZHY3IkISIoL0kncHZhbHVlR0YlJCIrJVxwdWgpISNWL0kqc3RhdGlzdGljR0YlJCErJjN6R00iISIp</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L42" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Zum Vergleich der Varianzen zweier Stichproben dient<Hyperlink linktarget="Help:TwoSampleFTest" hyperlink="true"><Font style="Hyperlink" family="Arial">TwoSampleFTest</Font></Hyperlink>. Mit <Hyperlink linktarget="Help:ChiSquareIndependenceTest" hyperlink="true"><Font style="Hyperlink" family="Arial">ChiSquareIndependenceTest</Font></Hyperlink> kann gepr<Font encoding="UTF-8">\303\274ft werden, ob  zwei Attribute unabh\303\244ngig voneinander sind. Betrachten wir eine Stichprobe von</Font><Font style="2D Math"> 476</Font> Patienten, die mit einem neuen Mittel behandelt wurden. Von den <Font style="2D Math">240</Font> Patienten, die das Mittel erhielten, wurden <Font style="2D Math">176</Font> geheilt, von den <Font style="2D Math">236</Font>, die ein Placebo erhielten, <Font style="2D Math">150</Font>. Wenn der Test ergeben sollte, dass die Ergebnisse unabh<Font encoding="UTF-8">\303\244ngig v</Font>oneinander sind, kann eine Wirkung des Mittels nicht best<Font encoding="UTF-8">\303\244tigt</Font> werden. Da die Hypothese aber zum <Font style="2D Math">5%</Font> Niveau verworfen wird, ist statistisch erwiesen, dass durch das Mittel die Heilungschance erh<Font encoding="UTF-8">\303\266ht wird.</Font></Text-field>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L30" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Mittelgruppe:=Vector[column]([64,176]):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L43" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Placebogruppe:=Vector[column]([86,150]):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L31" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">M:=Matrix([Mittelgruppe,Placebogruppe]):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L32" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ChiSquareIndependenceTest(M,level=.05);</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Chi-Square Test for Independence
+--------------------------------
+Null Hypothesis:
+Two attributes within a population are independent of one another
+Alt. Hypothesis:
+Two attributes within a population are not independent of one another
+
+Dimensions:              2
+Total Elements:          476
+Distribution:            ChiSquare(1)
+Computed statistic:      5.26704
+Computed pvalue:         0.0217328
+Critical value:          criticalvalue
+
+Result: [Rejected]</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">There exists statistical evidence against the null hypothesis</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NicvSStoeXBvdGhlc2lzRzYiSSZmYWxzZUclKnByb3RlY3RlZEcvSS5jcml0aWNhbHZhbHVlR0YlJCIrbWdYVFEhIiovSS1kaXN0cmlidXRpb25HRiUtSSpDaGlTcXVhcmVHRiU2IyIiIi9JJ3B2YWx1ZUdGJSQiKnkkR3RAISM1L0kqc3RhdGlzdGljR0YlJCIrJHpXcUUmRiw=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L44" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+</Worksheet>
