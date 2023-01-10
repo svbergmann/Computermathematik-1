@@ -1,0 +1,37 @@
+An Studierende der FH Aachen,
+
+die Installationsdatei von Maple 2022 finden Sie auf sciebo
+    https://fz-juelich.sciebo.de/s/VUdQkkyIcsAfoLy
+
+Diese Version von Maple kann auch ohne Lizenzmanager laufen. Hierfür
+muss Maple nach der Installation aktiviert werden. Während der
+Aktivierung muss der zu installierende Rechner mit dem Internet
+verbunden sein. Nach der vollständigen Installation (inkl. Aktivierung)
+benötigt Maple keine Netzwerkverbindung mehr. Bei der Aktivierung von
+Maple müssen Purchase Code, Name, Vorname und E-Mail-Adresse angegeben
+werden. Um die Anonymität gegenüber Maplesoft zu wahren, bitte ich Sie,
+die folgenden Daten für Name, Vorname und E-Mail-Adresse zu nutzen.
+
+Ich habe für Sie EINE Lizenz für Maple 2022 reserviert. Die Lizenzdaten lauten:
+        Purchase Code: RRK9QNSVM3KYD7ZM
+        Vorname:       Maple
+        Nachname:      Campuslizenz
+        E-Mail:        Maple.Campuslizenz@fz-juelich.de
+
+Das Forschungszentrum Jülich besitzt KEINE unbegrenzte Campus-Lizenz.
+Aus diesem Grund bitte ich Sie, bei weiteren Installationen von Maple,
+mich kurz darüber zu informieren. Auf diese Weise behalte ich den
+Überblick, wie viele Lizenzen bereits verbraucht sind, und kann ggf.
+reagieren.
+
+Gruß,
+Oliver Bücker
+
+-- 
+Oliver Buecker
+
+Institute for Advanced Simulation
+Juelich Supercomputing Centre        Tel.:   +49 2461 61-3176
+Mathematik und Ausbildung            Fax:    +49 2461 61-6656
+http://www.fz-juelich.de/ias/jsc     E-Mail: o.buecker@fz-juelich.de
+
